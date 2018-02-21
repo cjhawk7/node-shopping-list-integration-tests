@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: GCH42CBlmZOU0w+5EEXMsr7pSQGqlwWfcad+gTZ9UpmfZzrpQy+HRm+3bnbblgb6RbbWs4EXxT+fMHaqW/2nxgKMAN9t1i0iPuWs1ZX0dOdSQ1+kH/UU2fuA16aiq3DIa2q3hZ8laOrS3VPJnCgx6S4jsEvAQgCsDETApywN4qChBPl9zp4Z1UkFNZfBt/TMug9eom4ZYbPUR6YmUyvcljzF3+WsBOQQ6M8pSjj287DQGoB1PEDRisKUgnugsDVyCTsaUiFO8RVn2A1f0XNFlK2cvYYx4SC0HXSe8bYGCQQOuJmjUodbyc0Bh5V7IqT1iiUwSs8xmrMq3ysHN0gKZLBlF73DCxaqM9zdAGDNsnyBuLvkumWttVGzYHyS+ZG/hH22Z5vj5U0u/4zuUpvqV+2SD20F3ZbLd13IfVq/O2o/OQJkE8/uNg/QcBtBQ9PhWtQnmjKuZIlbqhyECYGyLdjc9kKxZ7YW5D7T6WX5ewmV9D5S8YeH+zGfiRyP2AzPz+NObSpHQN1SnAAw+2tiWVYMd0ZUwVZZ31KTznrhYUpr5TmWWw8nkgUBoor9PzdQ7BRs4Sdz+10fqCyw/l+Qd0noCWYM9MVQodlYkXx8dSKDptvcn/sk2VpsFQNCWxn5fCrezeKceOxZUDy63BsrIiNF4EB8RfQZWAtoz7pDRWc=
+  app: fathomless-journey-46187
+  on:
+    repo: cjhawk7/node-shopping-list-integration-tests
